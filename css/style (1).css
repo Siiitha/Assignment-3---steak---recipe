@@ -1,0 +1,72 @@
+
+h1 {
+  color: #154360 !important;
+  font-family: Georgia;
+  text-align: center;
+  float: center;
+}
+h2 {
+  border-bottom: 1px solid #21618C;
+  color: #21618C;
+  text-align: center;
+  font-family: Georgia;
+}
+input 
+{ background-color: #D6EAF8
+}
+
+  ul, ol 
+  {
+    font-style: oblique;
+    border-style: solid;
+    background-color: #D5D8DC
+  }
+body
+{
+  background-color: #FCF3CF
+}
+li
+{
+  background-color: #D6EAF8
+}
+
+Fieldset
+{  
+  background-color: #D6EAF8
+}
+h3 
+{
+  font-style: ;
+  color: #21618C ;
+}
+legend
+
+  color: #C0392B;
+}
+
+    .wrapper {
+  display:grid;
+  grid-template-columns: auto auto auto ;
+      grid-template-rows: 100px 100px 100px;
+        gap: 10px;
+    }
+      
+ .wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 170px 100px 30px;
+    gap: 240px;
+  text-align: center;
+ }
+* {
+  box-sizing: border-box;
+}
+[class*="col"] {
+  float: left;
+  /* padding: 15px; */
+}
+.row: :after {
+  content: "";
+  clear: both;
+  display: block;
+}
